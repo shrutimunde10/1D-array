@@ -1,15 +1,15 @@
 /*PRN: 22070123116
 Experiment-no: 7(a)*/
-#include <iostream>
-using namespace std;
+#include <iostream>  
+using namespace std; 
 
-int main() {
-    int a1[5]={10,5,23,11,3};
-    for(int i=0; i<5; i++){
-        cout<<a1[i]<<endl;
-    }
-return 0;
-}
+int main() {  
+    int a1[5]={10,5,23,11,3};  // Declare an integer array named 'a1' with 5 elements and initialize it
+    for(int i=0; i<5; i++){  // Start a for loop that iterates from 0 to 4
+        cout<<a1[i]<<endl;  // Output the value of 'a1' at index 'i' followed by a newline
+    } 
+    return 0; 
+}  // End of the main function
 
 /*OUTPUT
 10 5 23 11 3	
